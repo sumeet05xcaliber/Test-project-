@@ -1,0 +1,83 @@
+.totaltable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: wheat;
+    color: black;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: rgb(242, 138, 11);
+  }
+  .Movieinfo{
+    background-color: rgb(242, 138, 11);
+  }
+  .Heading{
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+    background-color: brown;
+  }
+  *{
+    padding: 0;margin: 0;
+  }
+  .summarybut{
+    text-align: center;
+    font-size: 20px;
+    background-color: wheat;
+  }
+  .Movieinfo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .bookformpic{
+    text-align: center;
+    font-size: 20px;
+  }
+  .nameofpic{
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px
+  }
+  .langofpic{
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 20px
+  }
+  .bookformpic{
+    background-color:wheat;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .entername{
+    font-size: 30px;
+  }
+  .enterage{
+    font-size: 30px;
+  }
+  .enteraddress{
+    font-size: 30px;
+  }
+  .timeslot{
+    font-size: 30px;
+  }
+  .phone{
+    font-size: 30px;
+  }
+  .errorhandle{
+    text-align: center;
+    font-size: 40px;
+  }
